@@ -5,6 +5,7 @@
   "author": "p1t1ch <belobeev.kirill@gmail.com>",
   "scripts": {
     "start": "gatsby develop -H 0.0.0.0",
+    "psstart": "code . && gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve -H 0.0.0.0 -p 8000",
     "storybook": "start-storybook -s public",

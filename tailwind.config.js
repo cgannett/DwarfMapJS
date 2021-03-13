@@ -26,6 +26,14 @@ module.exports = {
       gridTemplateRows: {
         layout: 'auto 1fr auto',
       },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        17: 'repeat(17, minmax(0, 1fr))',
+        33: 'repeat(33, minmax(0, 1fr))',
+        65: 'repeat(65, minmax(0, 1fr))',
+        129: 'repeat(129, minmax(0, 1fr))',
+        257: 'repeat(257, minmax(0, 1fr))',
+      },
     },
   },
   variants: {
